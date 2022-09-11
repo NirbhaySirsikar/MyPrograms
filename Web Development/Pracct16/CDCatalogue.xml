@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CDCatalogue.xsl"?>
+<CATALOG>
+    <CD>
+        <TITLE>Empire Burlesque</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <YEAR>1985</YEAR>
+        <GENRE>Rock</GENRE>
+    </CD>
+    <CD>
+        <TITLE>Hide your heart</TITLE>
+        <ARTIST>Bonnie Tylor</ARTIST>
+        <YEAR>1988</YEAR>
+        <GENRE>Pop</GENRE>
+    </CD>
+    <CD>
+        <TITLE>Greatest Hits</TITLE>
+        <ARTIST>Dolly Parton</ARTIST>
+        <YEAR>1982</YEAR>
+        <GENRE>Rock</GENRE>
+    </CD>
+    <CD>
+        <TITLE>Still got the blues</TITLE>
+        <ARTIST>Gary More</ARTIST>
+        <YEAR>1990</YEAR>
+        <GENRE>Jazz</GENRE>
+    </CD>
+    <CD>
+        <TITLE>Eros</TITLE>
+        <ARTIST>Eros Ramazzotti</ARTIST>
+        <YEAR>1997</YEAR>
+        <GENRE>Folk</GENRE>
+    </CD>
+    <CD>
+        <TITLE>One night only</TITLE>
+        <ARTIST>Bee Gees</ARTIST>
+        <YEAR>1998</YEAR>
+        <GENRE>EDM</GENRE>
+    </CD>
+</CATALOG>

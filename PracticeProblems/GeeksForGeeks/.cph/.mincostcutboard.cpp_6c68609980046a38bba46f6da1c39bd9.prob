@@ -1,0 +1,1 @@
+{"name":"Local: mincostcutboard","url":"c:\\PROGRAMMING\\PracticeProblems\\GeeksForGeeks\\mincostcutboard.cpp","tests":[{"id":1662120280257,"input":"2\n6 4\n2 1 3 1 4\n4 1 2\n4 4\n1 1 1\n1 1 1","output":"42\n15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\GeeksForGeeks\\mincostcutboard.cpp","group":"local","local":true}

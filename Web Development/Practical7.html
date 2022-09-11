@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <script>
+        function sub() {
+            alert("Submited");
+        }
+    </script>
+    <style>
+        .bg_image{
+            background-image: url("Naruto_bg2.jpg");
+            background-size:cover ;
+            height: max-content;
+        }
+        body{
+            background-color: #FF9432;
+            font-family:Arial;
+            font-weight: bolder;
+            background-size: 1050px;
+        }
+    </style>
+    <link rel="stylesheet" href="pract-7.css">
+</head>
+
+<body>
+    <div style="text-align: center">
+
+        <h1 style="background-color: orangered;font-family: sans-serif;text-align: center;border: 2px solid black;text-decoration:underline;display: inline-block;left: 50%;">STUDENT REGISTRATION FORM</h1>
+    </div>
+    <div class="bg_image">
+        <br>
+        <form>
+            <label>First Name:</label>
+            <br>
+            <input class="input_fields" type="text"  name="fname">
+            <br>
+            <br>
+            <label>Middle Name:</label>
+            <br>
+            <input class="input_fields" type="text" name="mname">
+            <br>
+            <br>
+            <label>Gender:</label>
+            <br>
+            
+            <input class="input_fields" type="radio" name="gender" value="male">
+        <label>Male</label>
+        <input class="input_fields" type="radio" name="gender" value="female">
+        <label>Female</label>
+        <input class="input_fields" type="radio" name="gender" value="other">
+        <label>Other</label>
+        <br>
+        <br>
+        
+        <label>Address:</label>
+        <br>
+        <input class="input_fields" type="text" name="Address">
+        <br>
+        <br>
+        <label>Contact No.:</label>
+        <br>
+        <input class="input_fields" type="tel" name="PhNo">
+        <br>
+        <br>
+        <label>Email ID:</label>
+        <br>
+        <input class="input_fields" type="email" name="email">
+        <br>
+        <br>
+        
+        <label>Hobbies:</label>
+        <br>
+        <input class="input_fields" type="checkbox" name="hobbies" value="Reading">
+        <label>Reading</label>
+        <input class="input_fields" type="checkbox" name="hobbies" value="Playing">
+        <label>Playing</label>
+        <input class="input_fields" type="checkbox" name="hobbies" value="other">
+        <label>Other</label>
+        <br>
+        <br>
+        <label>City:</label>
+        <select name="city">
+            <option value="Valsad">Valsad</option>
+            <option value="Vadodara">Vadodara</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <label>State:</label>
+        <select name="State">
+            <option value="Valsad">Gujurat</option>
+            <option value="Vadodara">Maharashtra</option>
+            <option value="Mumbai">Assam</option>
+            <option value="Delhi">Other</option>
+        </select> 
+        <label>Country:</label>
+        <select name="Country">
+            <option value="Valsad">India</option>
+            <option value="Vadodara">Pakistan</option>
+        </select>
+        <label>College:</label>
+        <select name="College">
+            <option value="Valsad">Parul</option>
+        </select>
+        <br>
+        <br>
+        <input style="font-size: 20px; font-style: normal;font-weight: bold;" type="submit" onclick="alert()">
+        <!-- <button onclick="sub()">Submit</button> -->
+    </form>
+</div>
+</body>
+
+</html>

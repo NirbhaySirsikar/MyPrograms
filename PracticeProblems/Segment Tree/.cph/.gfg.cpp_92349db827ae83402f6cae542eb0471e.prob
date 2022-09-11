@@ -1,0 +1,1 @@
+{"name":"Local: gfg","url":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\gfg.cpp","tests":[{"id":1661539924030,"input":"1\n10\n-5 -2 5 2 4 7 1 8 0 -8","output":"5 -5 2 -2 4 -8 7 1 8 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\gfg.cpp","group":"local","local":true}

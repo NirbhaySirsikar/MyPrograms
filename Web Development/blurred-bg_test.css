@@ -1,0 +1,163 @@
+.amimate-bg {
+    background-color: white;
+    
+}
+.text2{
+    position:relative;
+    top: 30%;
+    font-size: 30px;
+    font-weight: 80;
+}
+.text{
+    scale: 100%;
+    position: absolute;
+}
+.mainarea {
+    align-items: center;
+    height: 80vh;
+    width: 140vh;
+    font-family: sans-serif;
+    color: white;
+    /* background-color: black; */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    z-index: 999;
+    padding-left: 5%;
+    padding-right: 5%;
+    backdrop-filter: invert(1);
+}
+
+/* not_my_part */
+
+.circles {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(500px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+    }
+}
+
+.circles div {
+    border-radius: 100%;
+
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to left, #ff9966, purple);
+    /* background: rgba(255, 255, 255, 0.2); */
+    bottom: -150px;
+    animation: animate 25s linear infinite;
+}
+
+.circles div:nth-child(1) {
+    left: 25%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 0s;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.circles div:nth-child(2) {
+    left: 5%;
+    width: 500px;
+    height: 500px;
+    animation-delay: -2s;
+    animation-duration: 12s;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.circles div:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.circles div:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+.circles div:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.circles div:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.circles div:nth-child(7) {
+    left: 35%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 7s;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.circles div:nth-child(8) {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.circles div:nth-child(9) {
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+.circles div:nth-child(10) {
+    left: 85%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}

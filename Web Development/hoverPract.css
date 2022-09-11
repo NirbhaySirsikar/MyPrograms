@@ -1,0 +1,51 @@
+.Scale {
+    height: 150px;
+    width: 300px;
+    background-color: cyan;
+    border: 2px solid black;
+    transition: transform 0.5s;
+}
+
+.Scale:hover {
+    transform: scale(1.2)
+}
+
+.Skew {
+    height: 150px;
+    width: 300px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    transition: transform 0.5s;
+}
+
+.Skew:hover {
+    transform: skewX(-30deg);
+}
+
+.Matrix {
+    height: 150px;
+    width: 300px;
+    background-color: orange;
+    border: 2px solid black;
+    transition: transform 0.5s ease-out;
+}
+
+.Matrix:hover {
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+}
+
+.Transition {
+    height: 150px;
+    width: 300px;
+    background-color: plum;
+    border: 2px solid black;
+    transition: background-color 0.5s ease-out;
+}
+
+.Transition:hover {
+    background-color: purple;
+}
+
+* {
+    background-color: black;
+}

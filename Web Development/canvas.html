@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Canvas</title>
+</head>
+
+<body>
+    <canvas width="300px" height="300px" style="border:1px solid black;" id="myCanvas"></canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        
+        // ctx.strokeStyle="#0000FF";  
+        ctx.moveTo(0, 0);
+        // ctx.beginPath();
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
+    <canvas width="300px" height="300px" style="border:1px solid black;" id="CircleCanvas"></canvas>
+    <script>
+        var c = document.getElementById("CircleCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+    <canvas width="300px" height="300px" style="border:1px solid black;" id="textCanvas"></canvas>
+    <script>
+        var c = document.getElementById("textCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 10, 50);
+    </script>
+    <canvas width="300px" height="300px" style="border:1px solid black;" id="strokeCanvas"></canvas>
+    <script>
+        var c = document.getElementById("strokeCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World", 70, 150);
+    </script>
+    <canvas width="300px" height="300px" style="border:1px solid black;;" id="stroketextCanvas"></canvas>
+    <script>
+        var c = document.getElementById("stroketextCanvas");
+        var ctx = c.getContext("2d");
+        // ctx.strokeStyle="#FFFFFF"; 
+        ctx.textAlign = "center";
+        ctx.font = "900 100px sans-serif ";
+        ctx.strokeText("Hello", 150, 185);
+        // ctx.strokeStyle="#FFFFFF"; 
+        ctx.textAlign = "center";
+        ctx.font = "900 50px Arial";
+        ctx.fillText("Hello", 150, 170);
+        
+        ctx.beginPath();
+        ctx.strokeStyle="#FF00FF"; 
+        ctx.arc(150, 150, 190, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(150, 150, 170, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(150, 150, 150, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(150, 150, 130, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(150, 150, 110, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(150, 150, 0, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+
+</html>

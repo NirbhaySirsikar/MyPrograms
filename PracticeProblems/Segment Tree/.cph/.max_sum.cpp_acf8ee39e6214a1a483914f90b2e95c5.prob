@@ -1,0 +1,1 @@
+{"name":"Local: max_sum","url":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\max_sum.cpp","tests":[{"id":1661518878125,"input":"5 2\n5 -4 4 3 -5\n4 3\n3 -1","output":"8\n11\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\max_sum.cpp","group":"local","local":true}

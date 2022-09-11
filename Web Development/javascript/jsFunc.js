@@ -1,0 +1,11 @@
+games=["football","gta","cod","pubg"];
+games.shift();
+games.unshift("valo");
+console.log(games);
+games.splice(3,1,"halo","farcry");
+console.log(games);
+games.splice(0,2);
+console.log(games);
+players=["Aaron","Panth","Dhruv","Atul","Siddhant","Nirbhay"];
+result=games.concat(players);
+console.log(result);

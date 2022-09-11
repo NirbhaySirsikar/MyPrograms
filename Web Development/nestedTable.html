@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    Nested Table
+</head>
+
+<body>
+    <table border="2px" height="500" width="500">
+        <tr align="center">
+            <td rowspan="3">1</td>
+            <td>2</td>
+            <td rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>
+                <marquee scrollamount="50">
+
+                    <table align="center" border="2px" height="200" width="200">
+                        <tr align="center">
+                            <td>a</td>
+                            <td colspan="2">b</td>
+                        </tr>
+                        <tr align="center">
+                            <td rowspan="2">e</td>
+                            <td>c</td>
+                            <td>d</td>
+                        </tr>
+                        <tr align="center">
+                            <td colspan="2">f</td>
+                        </tr>
+                    </table>
+                </marquee>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+
+</html>

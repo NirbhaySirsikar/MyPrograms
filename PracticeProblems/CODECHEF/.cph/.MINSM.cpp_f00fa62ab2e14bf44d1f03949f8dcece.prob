@@ -1,0 +1,1 @@
+{"name":"Local: MINSM","url":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\MINSM.cpp","tests":[{"id":1660813162093,"input":"2\n2\n5 10\n3\n2 2 6","output":"10\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\MINSM.cpp","group":"local","local":true}

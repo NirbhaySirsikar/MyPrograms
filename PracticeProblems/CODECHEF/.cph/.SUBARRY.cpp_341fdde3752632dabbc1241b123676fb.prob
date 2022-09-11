@@ -1,0 +1,1 @@
+{"name":"Local: SUBARRY","url":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\SUBARRY.cpp","tests":[{"id":1662785316210,"input":"2\n2\n2 2\n9\n1 3 36 6 7 9 3 -5 4","output":"4 4\n-180 1296"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\SUBARRY.cpp","group":"local","local":true}

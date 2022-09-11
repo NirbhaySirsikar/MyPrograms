@@ -1,0 +1,1 @@
+{"name":"Local: Segtree","url":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\Segtree.cpp","tests":[{"id":1661069417147,"input":"8\n5 3 2 4 1 8 6 10\n4\n4 7\n4 5\n3 6\n1 6","output":"25\n9\n19\n24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\Segment Tree\\Segtree.cpp","group":"local","local":true}

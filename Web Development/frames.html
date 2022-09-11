@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Frames</title>
+</head>
+
+<frameset rows="30%,35%,35%">
+    <frame name="top" src="hello.htm" />
+    <frame name="main" src="Introduction.htm" />
+    <frameset cols="30%,30%,40%">
+        <frame name="left" src="Student.htm"/>
+        <frame name="mid" src="Result.htm"/>
+        <frame name="right" src="News.htm"/>
+    </frameset>
+    <frame name="bottom" src="/html/bottom_frame.htm" />
+
+    <noframes>
+
+        <body>Your browser does not support frames.</body>
+    </noframes>
+
+</frameset>
+
+</html>

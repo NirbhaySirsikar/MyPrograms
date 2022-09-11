@@ -1,0 +1,1 @@
+{"name":"Local: KLIP","url":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\KLIP.cpp","tests":[{"id":1660823079654,"input":"4\n3 2\n101\n4 2\n1011\n5 3\n01010\n5 2\n01010","output":"000\n0001\n00011\n00000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\CODECHEF\\KLIP.cpp","group":"local","local":true}

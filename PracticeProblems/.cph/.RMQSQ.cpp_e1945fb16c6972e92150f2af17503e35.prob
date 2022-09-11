@@ -1,0 +1,1 @@
+{"name":"Local: RMQSQ","url":"c:\\PROGRAMMING\\PracticeProblems\\RMQSQ.cpp","tests":[{"id":1661667842443,"input":"3\n1 4 1\n2\n1 1\n1 2","output":"4\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\RMQSQ.cpp","group":"local","local":true}
