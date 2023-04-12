@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 int main()
 {
     int a[100][100];
@@ -45,6 +43,5 @@ int main()
     {
         cout << "true";
     }
-
     return 0;
 }
