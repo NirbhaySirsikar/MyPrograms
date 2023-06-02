@@ -19,7 +19,6 @@ int main()
     string ct = pt;
     for (int i = 0; i < pt.size(); i++)
     {
-        // ct[i]+=((pt[i]-'A')+key[i%key.size()])%26;
         ct[i] = matrix[key[i % key.size()] - 'A'][pt[i] - 'A'];
     }
 

@@ -1,0 +1,9 @@
+graph: { title: "main"
+node: { title: "ENTRY" label: "ENTRY" }
+node: { title: "EXIT" label: "EXIT" }
+edge: { sourcename: "ENTRY" targetname: "2" linestyle: solid priority: 100 }
+
+node: { title: "2" label: "#2\ngimple_assign (5)\ngimple_return (6)"}
+edge: { sourcename: "2" targetname: "EXIT" priority: 100 linestyle: solid }
+}
+

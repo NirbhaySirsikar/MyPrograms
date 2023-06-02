@@ -15,7 +15,7 @@ public:
 };
 
 void insertAtStart(node *&head, int val)
-{
+{   
     node *n = new node(val);
     if (head == NULL)
     {

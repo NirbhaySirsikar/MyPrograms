@@ -1,8 +1,13 @@
-s = set()
-s.add(5)
-s.add(10)
-print("Adding 5 and 10 in set", s)
+# list=[]
+# for i in range (1,26):
+#     list.append(i)
+# #list comprehension
+# list=[[i/2,i*2] for i in list if(i>5)]
+# print(list)
 
-s.remove(5)
-print("Removing 5 from set", s)
-print()
+ls = []
+for i in range(1, 26):
+    ls.append(i)
+# list comprehension
+ls = [[i+1] for i in ls if (i>15) ]
+print(ls)

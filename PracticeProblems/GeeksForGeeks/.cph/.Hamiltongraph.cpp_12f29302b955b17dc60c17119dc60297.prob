@@ -1,0 +1,1 @@
+{"name":"Local: Hamiltongraph","url":"c:\\PROGRAMMING\\PracticeProblems\\GeeksForGeeks\\Hamiltongraph.cpp","tests":[{"id":1666164673550,"input":"1\n4 4\n1 2 2 3 3 4 2 4","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PROGRAMMING\\PracticeProblems\\GeeksForGeeks\\Hamiltongraph.cpp","group":"local","local":true}

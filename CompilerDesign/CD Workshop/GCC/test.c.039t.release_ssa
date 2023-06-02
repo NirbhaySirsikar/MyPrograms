@@ -1,0 +1,23 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1802, cgraph_uid=6)
+
+Released 0 names, 0.00%
+main ()
+{
+  int y;
+  int x;
+  int c;
+  int b;
+  int a;
+  int D.1811;
+  int D.1810;
+
+<bb 2>:
+  D.1810_3 = b_1(D) + c_2(D);
+  D.1811_5 = D.1810_3 + x_4(D);
+  a_7 = D.1811_5 + y_6(D);
+  return;
+
+}
+
+

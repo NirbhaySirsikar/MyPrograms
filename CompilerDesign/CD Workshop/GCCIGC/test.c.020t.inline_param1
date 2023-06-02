@@ -1,0 +1,41 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1802, cgraph_uid=6)
+
+
+Analyzing function body size: main
+
+Inline summary for main/6
+  self time:       16
+  global time:     0
+  self size:       8
+  global size:     0
+  self stack:      0
+  global stack:    0
+    size:6.000000, time:16.000000, predicate:(true)
+    size:2.000000, time:0.000000, predicate:(not inlined)
+  calls:
+
+main ()
+{
+  int f;
+  int e;
+  int d;
+  int c;
+  int b;
+  int a;
+  int D.1814;
+  int D.1813;
+  int D.1812;
+  int D.1811;
+
+<bb 2>:
+  D.1811_3 = c_1(D) * d_2(D);
+  D.1812_5 = D.1811_3 + b_4(D);
+  D.1813_8 = e_6(D) / f_7(D);
+  D.1814_9 = D.1812_5 + D.1813_8;
+  a_11 = D.1814_9 + a_10(D);
+  return;
+
+}
+
+

@@ -1,0 +1,20 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=2283, cgraph_uid=0, symbol_order=0)
+
+main ()
+{
+  int y;
+  int x;
+  int c;
+  int b;
+  int a;
+  int D.2292;
+  int D.2291;
+
+  D.2291 = b + c;
+  D.2292 = D.2291 + x;
+  a = D.2292 + y;
+  return;
+}
+
+

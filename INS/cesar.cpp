@@ -11,12 +11,15 @@ string caser(string pt, int key)
 {
     for (int i = 0; i < pt.size(); i++)
     {
-        if (pt[i] + key > 90)
-        {
-            pt[i] = pt[i] - 26 + key;
-        }
-        else
-            pt[i] += key;
+        int n=pt[i]-'A'+key;
+        pt[i]='A'+(n)%26;
+        // pt[i]='A'+(pt[i]-'A'+key)%26;
+        // if (pt[i] + key > 90)
+        // {
+        //     pt[i] = pt[i] - 26 + key;
+        // }
+        // else
+        //     pt[i] += key;
     }
     return pt;
 }
@@ -25,12 +28,8 @@ string caser_dec(string ct, int key)
 {
     for (int i = 0; i < ct.size(); i++)
     {
-        if (ct[i] - key < 65)
-        {
-            ct[i] = ct[i] + 26 - key;
-        }
-        else
-            ct[i] -= key;
+        int n=ct[i]-'A'-key;
+        ct[i]='A'+(n)%26;
     }
     return ct;
 }

@@ -1,0 +1,17 @@
+main ()
+{
+  int D.1809;
+  int D.1810;
+  int D.1811;
+  int a;
+  int b;
+  int c;
+  int d;
+
+  D.1809 = a + b;
+  D.1810 = a + b;
+  D.1811 = D.1810 + c;
+  a = D.1809 * D.1811;
+}
+
+

@@ -1,0 +1,83 @@
+
+;; Function getc (null)
+;; enabled by -tree-original
+
+
+{
+  return  --__F->_cnt >= 0 ? (int) (unsigned char) *__F->_ptr++  : _filbuf (__F);
+}
+
+
+
+;; Function putc (null)
+;; enabled by -tree-original
+
+{
+  return  --__F->_cnt >= 0 ? (int) (unsigned char) (*__F->_ptr++  = (char) __c) : _flsbuf (__c, __F);
+}
+
+
+
+;; Function getchar (null)
+;; enabled by -tree-original
+
+{
+  return  --_iob[0]._cnt >= 0 ? (int) (unsigned char) *_iob[0]._ptr++  : _filbuf (&_iob[0]);
+}
+
+
+
+;; Function putchar (null)
+;; enabled by -tree-original
+
+{
+  return  --_iob[1]._cnt >= 0 ? (int) (unsigned char) (*_iob[1]._ptr++  = (char) __c) : _flsbuf (__c, &_iob[1]);
+}
+
+
+
+;; Function fopen64 (null)
+;; enabled by -tree-original
+
+{
+  return fopen (filename, mode);
+}
+
+
+
+;; Function ftello64 (null)
+;; enabled by -tree-original
+
+{
+  fpos_t pos;
+
+    fpos_t pos;
+  if (fgetpos (stream, &pos) != 0)
+    {
+      return -1;
+    }
+  else
+    {
+      return (off64_t) pos;
+    }
+}
+
+
+
+;; Function main (null)
+;; enabled by -tree-original
+
+{
+  int a;
+  int b;
+  int c;
+  int d;
+
+    int a;
+    int b;
+    int c;
+    int d;
+  a = (a + b) * ((a + b) + c);
+}
+
+

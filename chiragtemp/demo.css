@@ -1,0 +1,13 @@
+body{ 
+    text-align: center; 
+    background-color: bisque; 
+   } 
+   table{ 
+    color:antiquewhite; 
+    background-color: rgb(83, 72, 72); 
+   } 
+   input[type="Submit"]:hover{ 
+    background: #2691d9; 
+    color: #e9f4fb; 
+    transition: .5s; 
+   }

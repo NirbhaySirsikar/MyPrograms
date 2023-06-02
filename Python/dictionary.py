@@ -1,7 +1,11 @@
-a = [1, 2, 3, 4]
-try:
-    print("Second element = %d" % (a[9]))
-    # Throws error since there are only 3 elements in array
-    print("Fourth element = %d" % (a[6]))
-except:
-    print("An error occurred")
+d={"name":"Nirbhay","enr":33,"loc":"Baroda","year":3}
+print(d["name"],d["enr"],d["loc"],d["year"])
+d["age"]=20
+print(d)
+li=['a','b','c']
+print(d.fromkeys(li, 5))
+for i,j in d.items(): 
+    print(i) 
+    print(j)
+# for i in d: print(d)
+# print(d.fromkeys("name", "Nirbhay"))

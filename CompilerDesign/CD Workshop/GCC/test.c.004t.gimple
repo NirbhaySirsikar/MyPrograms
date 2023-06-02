@@ -1,0 +1,16 @@
+main ()
+{
+  int D.1810;
+  int D.1811;
+  int a;
+  int b;
+  int c;
+  int x;
+  int y;
+
+  D.1810 = b + c;
+  D.1811 = D.1810 + x;
+  a = D.1811 + y;
+}
+
+

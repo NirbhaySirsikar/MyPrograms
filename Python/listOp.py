@@ -1,12 +1,13 @@
 # Nested List
 nestedList=[1,2,3,['a','b']];
 ListinsideList=nestedList[3];
+ListinsideList.pop();
 ListinsideListElement=nestedList[3][0];
 print(ListinsideList);
 print(ListinsideListElement);
 
 # Length Concatenation
-LengthList=["Hello","parul","university","I","am","pANTH"]
+LengthList=["Hello","parul","university","I","am","Nirbhaycamc"]
 k=3
 for ele in LengthList:
     if(len(ele)>k):

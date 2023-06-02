@@ -1,0 +1,163 @@
+
+;; Function __debugbreak (null)
+;; enabled by -tree-original
+
+
+{
+  __asm__ __volatile__("int {$}3"::);
+}
+
+
+;; Function vfscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vfscanf (__stream, __format, __local_argv);
+}
+
+
+;; Function vsscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vsscanf (__source, __format, __local_argv);
+}
+
+
+;; Function vscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vscanf (__format, __local_argv);
+}
+
+
+;; Function vsnprintf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vsnprintf (__stream, __n, __format, __local_argv);
+}
+
+
+;; Function snprintf (null)
+;; enabled by -tree-original
+
+
+{
+  int __retval;
+  char * __local_argv;
+
+    int __retval;
+    char * __local_argv;
+  __builtin_va_start ((char * &) &__local_argv, __format);
+  __retval = __ms_vsnprintf (__stream, __n, __format, __local_argv);
+  __builtin_va_end ((char * &) &__local_argv);
+  return __retval;
+}
+
+
+;; Function vfwscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vfwscanf (__stream, __format, __local_argv);
+}
+
+
+;; Function vswscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vswscanf (__source, __format, __local_argv);
+}
+
+
+;; Function vwscanf (null)
+;; enabled by -tree-original
+
+
+{
+  return __ms_vwscanf (__format, __local_argv);
+}
+
+
+;; Function snwprintf (null)
+;; enabled by -tree-original
+
+
+{
+  int r;
+  char * argp;
+
+    int r;
+    char * argp;
+  __builtin_va_start ((char * &) (char * *) &argp, format);
+  r = _vsnwprintf (s, n, format, argp);
+  __builtin_va_end ((char * &) (char * *) &argp);
+  return r;
+}
+
+
+;; Function vsnwprintf (null)
+;; enabled by -tree-original
+
+
+{
+  return _vsnwprintf (s, n, format, arg);
+}
+
+
+;; Function vswprintf (null)
+;; enabled by -tree-original
+
+
+{
+  return vsnwprintf (__stream, __count, __format, __local_argv);
+}
+
+
+;; Function swprintf (null)
+;; enabled by -tree-original
+
+
+{
+  int __retval;
+  char * __local_argv;
+
+    int __retval;
+    char * __local_argv;
+  __builtin_va_start ((char * &) &__local_argv, __format);
+  __retval = vswprintf (__stream, __count, __format, __local_argv);
+  __builtin_va_end ((char * &) &__local_argv);
+  return __retval;
+}
+
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a;
+  int b;
+  int c;
+  int d;
+  int e;
+  int f;
+
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+  a = ((c * d + b) + e / f) + a;
+}
+

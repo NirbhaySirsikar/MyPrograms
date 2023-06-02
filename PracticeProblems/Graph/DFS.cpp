@@ -48,7 +48,8 @@ int main()
         adj[x].push_back(y);
         adj[y].push_back(x);
     }
-    dfs(1);
+    for(auto e:adj[4]) cout<<e<<":";
+    // dfs(1);
 
     return 0;
 }

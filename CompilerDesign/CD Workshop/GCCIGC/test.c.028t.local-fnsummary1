@@ -1,0 +1,41 @@
+
+;; Function main (main, funcdef_no=13, decl_uid=2800, cgraph_uid=13, symbol_order=13)
+
+
+Analyzing function body size: main
+
+IPA function summary for main/13
+  global time:     16.000000
+  self size:       8
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:6.000000, time:16.000000
+    size:2.000000, time:0.000000,  executed if:(not inlined)
+  calls:
+
+main ()
+{
+  int f;
+  int e;
+  int d;
+  int c;
+  int b;
+  int a;
+  int _1;
+  int _2;
+  int _3;
+  int _4;
+
+  <bb 2> :
+  _1 = c_5(D) * d_6(D);
+  _2 = b_7(D) + _1;
+  _3 = e_8(D) / f_9(D);
+  _4 = _2 + _3;
+  a_11 = a_10(D) + _4;
+  return;
+
+}
+
+

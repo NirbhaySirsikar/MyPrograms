@@ -1,0 +1,17 @@
+main ()
+{
+  int a;
+  int b;
+  int c;
+  int d;
+  int e;
+  int f;
+
+  _1 = c * d;
+  _2 = b + _1;
+  _3 = e / f;
+  _4 = _2 + _3;
+  a = a + _4;
+}
+
+

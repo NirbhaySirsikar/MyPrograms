@@ -1,0 +1,36 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1802, cgraph_uid=6)
+
+
+Analyzing function body size: main
+
+Inline summary for main/6
+  self time:       5
+  global time:     0
+  self size:       6
+  global size:     0
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:5.000000, predicate:(true)
+    size:2.000000, time:0.000000, predicate:(not inlined)
+  calls:
+
+main ()
+{
+  int y;
+  int x;
+  int c;
+  int b;
+  int a;
+  int D.1811;
+  int D.1810;
+
+<bb 2>:
+  D.1810_3 = b_1(D) + c_2(D);
+  D.1811_5 = D.1810_3 + x_4(D);
+  a_7 = D.1811_5 + y_6(D);
+  return;
+
+}
+
+

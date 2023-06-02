@@ -1,0 +1,57 @@
+<html>
+<title>Program to locate the Parul University with latitute, longitude, map, date and time.</title>
+<style>
+    div {
+        border: 2px black double;
+        height: 30%;
+        width: 30%;
+        background-color: bisque;
+    }
+</style>
+
+<body bgcolor="aliceblue">
+    <center>
+        <h3>Chirag Gadhvi</h3>
+        <div>
+            <p>Parul University✨</p>
+            <p>Be here Be Vibrant🐱‍🏍.</p>
+            <p>But where is here actually??</p>
+            <p>To know click on the button😁</p>
+            <button onclick="getLocation()">Find Parul📌!!</button>
+            <p id="demo"></p>
+        </div>
+    </center>
+    <script>
+        var l = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                l.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        function showPosition(position) {
+            l.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+        } 
+    </script>
+    <script>
+        function current() {
+            const date = new Date();
+            document.getElementById("write").innerHTML = "Current date and time is : " + date;
+        } 
+    </script>
+    </head>
+
+    <body>
+        <center>
+                <div>
+                    <p>To find out about the date and time click here😎</p>
+                <center>
+                    <button onclick="current()">Find date and time📅</button>
+                </center>
+                <p id="write"></p>
+                </div>
+            
+    </body>
+
+</html>

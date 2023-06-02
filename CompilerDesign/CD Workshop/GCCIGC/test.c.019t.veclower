@@ -1,0 +1,27 @@
+
+;; Function main (main, funcdef_no=6, decl_uid=1802, cgraph_uid=6)
+
+main ()
+{
+  int f;
+  int e;
+  int d;
+  int c;
+  int b;
+  int a;
+  int D.1814;
+  int D.1813;
+  int D.1812;
+  int D.1811;
+
+<bb 2>:
+  D.1811_3 = c_1(D) * d_2(D);
+  D.1812_5 = D.1811_3 + b_4(D);
+  D.1813_8 = e_6(D) / f_7(D);
+  D.1814_9 = D.1812_5 + D.1813_8;
+  a_11 = D.1814_9 + a_10(D);
+  return;
+
+}
+
+

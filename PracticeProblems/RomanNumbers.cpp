@@ -64,8 +64,8 @@ int main()
 {
     string s = "";
     // cout << "enter the roman number: ";
-    // cin >> s;
+    cin >> s;
     // cout<<s;
-    cout << romanToInt("MCMXCIV") << endl;
+    cout << romanToInt(s) << endl;
     return 0;
 }

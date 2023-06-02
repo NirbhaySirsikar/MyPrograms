@@ -9,7 +9,8 @@ bool power2check(int n)
 
 int main()
 {
-    if (power2check(0))
+    int n;cin>>n;
+    if (power2check(n))
     {
         cout << "Yes";
     }
